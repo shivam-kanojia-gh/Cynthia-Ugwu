@@ -1,0 +1,89 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/* #main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1677666922880-2e458267119d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    background-size: cover;
+    background-position: center;
+} */
+
+#car1 {
+	/* position: absolute; */
+	height: 90px;
+	width: 90px;
+	background-color: blue;
+}
+
+#car2 {
+	/* position: absolute; */
+	height: 110px;
+	width: 110px;
+	background-color: pink;
+}
+
+#car3 {
+	/* position: absolute; */
+	height: 150px;
+	width: 140px;
+	background-color: yellow;
+}
+
+/* #big{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    background-color: burlywood;
+}
+
+#small{
+    position: absolute;
+    left: 40%;
+    height: 100px;
+    width: 100px;
+    background-color: bisque;
+} */
+
+#box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+}
+
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+}
+
+/* jis element ko absolute position dete h vo ek lvl upar aa jata h aur baki shift ho jaate h
+agr ek se jada ko absolute dia toh upar vala lvl 1 aa jaega uske neeche vala lvl 2 and so on */
+/* agr element ko absolute position deke parent element ke andar aur uske relative shift krna h toh parent ko relative position dedo */
+/* agr elements ko horizontally align krna h toh parent ko flexbox bna do */
+/* justify-content is used for x-axis
+align-items is used for y-axis */
